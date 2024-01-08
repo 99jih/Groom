@@ -1,0 +1,44 @@
+.netflix-main {
+    padding: 20px;
+}
+
+.banner {
+    text-align: left;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.banner p {
+    font-size: 24px;
+    opacity: 0.7;
+    margin-bottom: 100px;
+}
+
+.content-list-name {
+    font-size: 24px;
+}
+
+.content-list {
+    display: flex;
+    flex-wrap: nowrap; /* 아이템을 줄 바꿈하지 않고 가로로 나열 */
+    overflow-x: auto; 
+    gap: 20px;
+    justify-content: flex-start;
+    
+}
+
+.content-list img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.content-list img:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
